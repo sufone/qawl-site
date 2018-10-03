@@ -6,22 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Qawl - Desktop Quran App</title>
-    <link rel="shortcut icon" href="../images/fav_icon.png" type="image/x-icon">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <!-- Bulma Version 0.7.1-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css" />
-    <link rel="icon" href="favicon.ico" type="image/ico"> 
-    <style type="text/css">
-        html,
-        body {
-            font-family: 'Open Sans';
-            }
-        img {
-            padding: 5px;
-            border: 1px solid #ccc;
-            }
-    </style>
+    <link rel="stylesheet" href="style.css" />
+    <link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
 </head>
 
 <body>
@@ -29,24 +18,19 @@
         <div class="hero-body">
             <div class="container has-text-centered">
                 <div class="columns is-vcentered">
-                    <div class="column is-5">
-                        <figure class="image is-4by3">
-                            <img src="https://picsum.photos/800/600/?random" alt="Description">
+                    <div class="column is-7">
+                        <figure class="video-container">
+                            <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                            </iframe> 
                         </figure>
                     </div>
-                    <div class="column is-6 is-offset-1">
-                        <h1 class="title is-2">
+                    <div class="column is-4 is-offset-1">
+                        <h1 class="title is-2 is-bold">
                             Qawl
                         </h1>
                         <h2 class="subtitle is-4">
-                            Desktop Quran Reader
+                            A Quran app for your desktop.
                         </h2>
-                        <br>
-                        <p class="has-text-centered">
-                            <a class="button is-medium is-info is-outlined">
-                Learn more
-              </a>
-                        </p>
                     </div>
                 </div>
             </div>
@@ -55,13 +39,38 @@
             <div class="container">
                 <div class="tabs is-centered">
                     <ul>
-                        <li><a>And this is the bottom</a></li>
+                        <li><a href="#section2">Learn more 👇</a></li>
                     </ul>
                 </div>
             </div>
         </div>
     </section>
-    <section class="hero is-fullheight is-default is-bold">
+
+    <section id="section2" class="hero is-fullheight is-default is-bold is-dark">
+        <div class="hero-body">
+            <div class="container has-text-centered">
+                <div class="columns is-vcentered">
+                    <div class="column is-5">
+                        <figure class="image is-4by3">
+                            <img src="https://picsum.photos/800/600/?random" alt="Description">
+                        </figure>
+                    </div>
+                    <div class="column is-6 is-offset-1">
+                        <h1 class="title is-2">Features</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-foot">
+            <div class="container">
+                <div class="tabs is-centered">
+                    <ul><li><a href="#section3">Get it now ⬇</a></li></ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="section3" class="hero is-fullheight is-default is-bold is-light">
         <div class="hero-body">
             <div class="container has-text-centered">
                 <div class="columns is-vcentered">
@@ -91,13 +100,29 @@
             <div class="container">
                 <div class="tabs is-centered">
                     <ul>
-                        <li><a>And this is the bottom</a></li>
+                        <li>
+                          <a class="github-button" aria-label="Star mr-islam/qawl on GitHub" href="https://github.com/mr-islam/qawl" data-show-count="true">Star</a></li>
                     </ul>
                 </div>
             </div>
         </div>
     </section>
+
+    <section class="hero is-medium is-info is-bold">
+        <div class="hero-body">
+          <div class="container">
+            <h1 class="title">
+              Primary bold title
+            </h1>
+            <h2 class="subtitle">
+              Primary bold subtitle
+            </h2>
+          </div>
+        </div>
+    </section>
+
     <script src="menubar.js"></script>
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
 </body>
 
 </html>
