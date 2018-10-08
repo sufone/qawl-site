@@ -1,0 +1,4 @@
+
+.icon-apple:before { content: '\f179'; } /* '' */
+.icon-windows:before { content: '\f17a'; } /* '' */
+.icon-linux:before { content: '\f17c'; } /* '' */
