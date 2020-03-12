@@ -2,4 +2,4 @@
   from = "https://qawl.navedislam.com"
   to = "https://navedislam.com/qawl"
   status = 301
-  force = false
+  force = true
