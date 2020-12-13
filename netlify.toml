@@ -3,3 +3,9 @@
   to = "https://qawl.app"
   status = 301
   force = true
+
+[[redirects]]
+  from = "https://qawl.app/qawl"
+  to = "https://qawl.app"
+  status = 301
+  force = true
